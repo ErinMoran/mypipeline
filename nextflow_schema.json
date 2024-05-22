@@ -292,5 +292,19 @@
         {
             "$ref": "#/definitions/generic_options"
         }
-    ]
+    ],
+    "properties": {
+        "adapters": {
+            "type": "string",
+            "fa_icon": "far fa-address-book"
+        },
+        "save_trimmed_fail": {
+            "type": "boolean",
+            "fa_icon": "fas fa-align-justify"
+        },
+        "save_merged": {
+            "type": "boolean",
+            "fa_icon": "far fa-angry"
+        }
+    }
 }
